@@ -1,0 +1,16 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
