@@ -1,19 +1,10 @@
-import { funcModA, varA } from "./modules/module-a"
-import { funcModB } from "./modules/module-b"
-import { funcModC } from "./modules/module-c"
-import { funcModD } from "./modules/module-d"
+import run from './experiments/shared-var'
 
 console.log('#> Console Log Index TS')
-console.log('#> Console Log Index TS 2')
 
-//console.log(funcModA())
-
-console.log(funcModB())
-console.log(funcModC())
-
-console.log(funcModB())
-console.log(funcModC())
-
-console.log(funcModD())
-
-console.log(varA)
+/* Experiment shared-var
+  A variable is declared in module-a that has a function to increment it
+  The modules B and C have a function that call incrementer function in module A
+  The module D has a function that return the variable value
+*/
+run()
