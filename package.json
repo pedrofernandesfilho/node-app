@@ -4,9 +4,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc"
+    "build": "tsup",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^29.6.1",
+    "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
   }
