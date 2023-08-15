@@ -1,4 +1,5 @@
-import run from './experiments/shared-var'
+import sharedVarRun from './experiments/shared-var'
+import singletonInstanceRun from './experiments/singleton-instance'
 
 console.log('#> Console Log Index TS')
 
@@ -7,4 +8,8 @@ console.log('#> Console Log Index TS')
   The modules B and C have a function that call incrementer function in module A
   The module D has a function that return the variable value
 */
-run()
+//sharedVarRun()
+
+/* Experiment singleton-instnce
+*/
+singletonInstanceRun()

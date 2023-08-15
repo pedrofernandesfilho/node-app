@@ -3,7 +3,7 @@ import { funcModB } from "./module-b"
 import { funcModC } from "./module-c"
 import { funcModD } from "./module-d"
 
-export default function run() {
+export default function sharedVarRun() {
   console.log('varA:', varA) // output= varA: 1
   console.log('varA:', varA) // output= varA: 1
 
