@@ -1,5 +1,6 @@
 import sharedVarRun from './experiments/shared-var'
 import singletonInstanceRun from './experiments/singleton-instance'
+import classMethodOverloadRun from './experiments/class-method-overload'
 
 console.log('#> Console Log Index TS')
 
@@ -12,4 +13,7 @@ console.log('#> Console Log Index TS')
 
 /* Experiment singleton-instnce
 */
-singletonInstanceRun()
+//singletonInstanceRun()
+
+/* Experiment class mehtod overload */
+classMethodOverloadRun()
